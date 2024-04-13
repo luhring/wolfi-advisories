@@ -1,0 +1,35 @@
+schema-version: 2.0.2
+
+package:
+  name: unzip
+
+advisories:
+  - id: CVE-2014-8139
+    events:
+      - timestamp: 2024-04-12T17:49:24Z
+        type: detection
+        data:
+          type: nvdapi
+          data:
+            cpeSearched: cpe:2.3:a:*:unzip:*:*:*:*:*:*:*:*
+            cpeFound: cpe:2.3:a:unzip_project:unzip:*:*:*:*:*:*:*:*
+
+  - id: CVE-2014-8140
+    events:
+      - timestamp: 2024-04-12T17:49:24Z
+        type: detection
+        data:
+          type: nvdapi
+          data:
+            cpeSearched: cpe:2.3:a:*:unzip:*:*:*:*:*:*:*:*
+            cpeFound: cpe:2.3:a:unzip_project:unzip:*:*:*:*:*:*:*:*
+
+  - id: CVE-2014-8141
+    events:
+      - timestamp: 2024-04-12T17:49:24Z
+        type: detection
+        data:
+          type: nvdapi
+          data:
+            cpeSearched: cpe:2.3:a:*:unzip:*:*:*:*:*:*:*:*
+            cpeFound: cpe:2.3:a:unzip_project:unzip:*:*:*:*:*:*:*:*

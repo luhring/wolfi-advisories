@@ -12,3 +12,13 @@ advisories:
         type: fixed
         data:
           fixed-version: 1.22.2-r0
+
+  - id: CVE-2023-49292
+    events:
+      - timestamp: 2024-04-12T17:31:38Z
+        type: detection
+        data:
+          type: nvdapi
+          data:
+            cpeSearched: cpe:2.3:a:*:go:*:*:*:*:*:*:*:*
+            cpeFound: cpe:2.3:a:ecies:go:*:*:*:*:*:*:*:*

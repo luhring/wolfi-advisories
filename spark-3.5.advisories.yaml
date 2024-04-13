@@ -4,6 +4,26 @@ package:
   name: spark-3.5
 
 advisories:
+  - id: CVE-2018-11770
+    events:
+      - timestamp: 2024-04-12T17:48:11Z
+        type: detection
+        data:
+          type: nvdapi
+          data:
+            cpeSearched: cpe:2.3:a:*:spark:*:*:*:*:*:*:*:*
+            cpeFound: cpe:2.3:a:apache:spark:*:*:*:*:*:*:*:*
+
+  - id: CVE-2018-11804
+    events:
+      - timestamp: 2024-04-12T17:48:11Z
+        type: detection
+        data:
+          type: nvdapi
+          data:
+            cpeSearched: cpe:2.3:a:*:spark:*:*:*:*:*:*:*:*
+            cpeFound: cpe:2.3:a:apache:spark:*:*:*:*:*:*:*:*
+
   - id: CVE-2018-1330
     aliases:
       - GHSA-95q3-pppp-r683
