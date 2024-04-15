@@ -135,6 +135,14 @@ advisories:
           type: vulnerability-record-analysis-contested
           note: The maintainers don't agree that this is a security problem.
 
+  - id: GHSA-95pr-fxf5-86gv
+    events:
+      - timestamp: 2024-04-15T00:27:49Z
+        type: false-positive-determination
+        data:
+          type: vulnerability-record-analysis-contested
+          note: This seems to refer to a past version of the software, not the version we have now.
+
   - id: GHSA-jq35-85cj-fj4p
     events:
       - timestamp: 2023-10-31T20:03:54Z
