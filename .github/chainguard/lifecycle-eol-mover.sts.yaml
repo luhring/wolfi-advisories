@@ -1,0 +1,7 @@
+issuer: https://accounts.google.com
+
+# dluhring: lifecycle-eol-mover@dluhring-chainguard.iam.gserviceaccount.com
+subject: "100808317335841680653"
+
+permissions:
+  contents: read
